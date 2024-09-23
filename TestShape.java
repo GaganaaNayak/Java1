@@ -6,14 +6,12 @@ class Shape{
 		System.out.println("Erasing a shape");
 }}
 class Circle extends Shape{
-	@Override
 	public void draw() {
 		System.out.println("Drawing a circle");}
 	public void erase() {
 		System.out.println("Erasing a circle");
 }}
 class Triangle extends Shape{
-	@Override
 	public void draw() {
 		System.out.println("Drawing a triangle");
 }
@@ -21,7 +19,6 @@ class Triangle extends Shape{
 		System.out.println("Erasing a triangle");
 }}
 class Square extends Shape{
-	@Override
 	public void draw() {
 		System.out.println("Drawing a square");
 }
