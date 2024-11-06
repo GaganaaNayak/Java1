@@ -1,9 +1,8 @@
-package pkg1;
-import pkg2.Tools2;
+import pkg2.Tools1;
 public class M7 {
 
         public static void main(String[] args) {
-                Tools2 t1=new Tools2();
+                Tools1 t1=new Tools1();
                 System.out.println(t1.reverse("Gagana"));
 
 
