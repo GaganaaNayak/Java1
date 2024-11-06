@@ -1,5 +1,3 @@
-package pkg1;
-
 public class M6 {
 
         public static void main(String[] args) {
